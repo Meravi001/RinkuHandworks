@@ -1,0 +1,504 @@
+
+@media only screen and (max-width:1400px) {
+
+    /* Location Map Section css */
+    .location-map .location-map-wrap .list-map li {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width:1200px) {
+
+    /* Header section css */
+    .navbar .navbar-nav .nav-link {
+        margin: 4px;
+    }
+    .navbar .navbar-nav .btn-warning-custom {
+        margin-left: 4px;
+    }
+
+    /* Hiro section css */
+    .hiro .hiro-contant {
+        min-width: 340px;
+    }
+    .hiro .hiro-enquire {
+        min-width: 260px;
+    }
+
+    /* Location Map Section css */
+    .location-map .location-map-wrap .list-map li {
+        line-height: 25px;
+        margin-bottom: 7px;
+    }
+
+}
+
+@media only screen and (max-width:991px) {
+    
+    /* Comman CSS */
+    .form-floating>label {
+        padding: 0.6rem 0.75rem;
+    }
+    .form-floating>.form-control {
+        padding: 12px 0.75rem;
+    }
+    .form-floating>.form-control,
+    .form-floating>.form-select {
+        height: calc(2.8rem + 2px);
+    }
+
+    /* Header section css */
+    .navbar {
+        position: relative;
+    }
+    .navbar .navbar-collapse {
+        background-color: #f8f9fa;
+        padding: 5px 0 15px;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    .navbar .navbar-nav .btn-warning-custom {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .navbar .navbar-nav .nav-link {
+        display: inline-block;
+    }
+    .fixed-top {
+        position: fixed;
+    }
+
+    /* Hiro section css */
+    .hiro .carousel-item {
+        height: 900px;
+    }
+    .hiro .hiro-contant {
+        min-width: 365px;
+    }
+    .hiro .hiro-contant h4 {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+    .hiro .offer-img {
+        height: auto;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .hiro .offer-img img {
+        max-width: 175px;
+    }
+    .hiro .hiro-enquire {
+        min-width: 100%;
+    }
+
+    /* Overview section css */
+    .overview .overview-contant {
+        margin-top: 10px;
+    }
+    .overview .overview-contant h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .overview .overview-items {
+        padding: 12px 15px;
+        border-radius: 8px;
+    }
+    .overview .overview-items .overviewItems-icon {
+        font-size: 30px;
+        margin-right: 12px;
+    }
+    .overview .overview-items .overviewItems-contant p {
+        font-size: 15px;
+    }
+
+    /* Gallery section css */
+    .gallery .gallery-plugin .box {
+        border-radius: 10px;
+    }
+
+    /* Floor Plan Section css */
+    .floor-plan .floor-plan-item {
+        border-radius: 10px;
+    }
+
+    /* Location Map Section css */
+    .location-map .location-map-wrap iframe {
+        height: 380px;
+        margin-bottom: 30px;
+    }
+    .location-map .location-map-wrap .list-map li {
+        margin-bottom: 10px;
+    }
+
+    /* Contact Section CSS */
+    .contact .enquire-now {
+        padding: 40px 25px;
+    }
+    
+    /* Customize Modal */
+    .modal .modal-dialog .modal-content .modal-body .we-promise {
+        padding: 12px 5px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .we-promise h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .modal .modal-dialog .modal-content .btn-close {
+        background-size: 0.8em;
+        padding: 7px;
+        top: -15px;
+        right: -15px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .we-promise .we-promise-item {
+        margin-bottom: 12px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .we-promise .we-promise-item img {
+        width: 35px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .we-promise .we-promise-item p {
+        font-size: 12px;
+        line-height: 16px;
+        max-width: 100%;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-inquire {
+        padding: 30px 15px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-inquire .btn-dark-custom {
+        padding: 10px 25px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-get-info {
+        padding: 35px 15px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-get-info h5 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-get-info ul {
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-get-info ul li {
+        line-height: 35px;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+
+    /* Comman CSS */
+    p {
+        font-size: 16px;
+    }
+
+    /* Hiro section css */
+    .hiro .hiro-contant {
+        min-width: 100%;
+    }
+
+    /* Overview section css */
+    .overview {
+        padding: 35px 0;
+    }
+    .overview .overview-contant h3 {
+        font-size: 25px;
+    }
+    .overview .overview-items {
+        border-radius: 15px;
+        padding: 20px 35px;
+    }
+    .overview .overview-items .overviewItems-icon {
+        font-size: 55px;
+        margin-right: 25px;
+    }
+    .overview .overview-items .overviewItems-contant p {
+        font-size: 16px;
+    }
+
+    /* Gallery section css */
+    .gallery {
+        padding: 35px 0;
+    }
+
+    /* Price List Section css */
+    .price-list {
+        padding: 35px 0;
+    }
+
+    /* Floor Plan Section css */
+    .floor-plan {
+        padding: 35px 0;
+    }
+
+    /* Amenities Section css */
+    .amenities {
+        padding: 35px 0;
+    }
+    .amenities .amenities-list {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    /* Location Map Section css */
+    .location-map {
+        padding: 35px 0;
+    }
+
+    /* Contact Section CSS */
+    .contact {
+        padding: 35px 0;
+    }
+
+    /* Enquire Right Sidebar CSS */
+    .offcanvas-end {
+        width: 325px;
+    }
+    .offcanvas .offcanvas-body .get-dials h3 {
+        font-size: 22px;
+    }
+    .offcanvas .offcanvas-body .get-dials {
+        padding: 50px 0px;
+    }
+
+}
+
+@media only screen and (max-width:576px) {
+
+    /* Comman CSS */
+    .headding-sec h6 {
+        margin-bottom: 20px;
+    }
+    .headding-sec h3 {
+        font-size: 28px;
+    }
+
+    /* Overview section css */
+    .overview .overview-contant h3 {
+        font-size: 22px;
+    }
+    .overview .overview-contant > .row {
+        margin-top: 15px;
+    }
+
+    /* Gallery section css */
+    .gallery .gallery-plugin {
+        margin-top: 0px;
+    }
+
+    /* Price List Section css */
+    .price-list .table-responsive {
+        margin-top: 20px;
+    }
+    .price-list .table-responsive .table {
+        width: 495px;
+    }
+
+    /* Floor Plan Section css */
+    .floor-plan .row {
+        margin-top: 0px;
+    }
+
+    /* Amenities Section css */
+    .amenities .row {
+        margin-top: 15px;
+    }
+
+    /* Amenities Section css */
+    .amenities .row {
+        margin-top: 15px;
+    }
+
+    /* Location Map Section css */
+    .location-map .location-map-wrap {
+        margin-top: 15px;
+    }
+    .location-map .location-map-wrap .list-map {
+        padding: 0;
+    }
+
+    /* Customize Modal */
+    .modal .modal-dialog .modal-content .modal-body {
+        display: block;
+    }
+    .modal .modal-dialog .modal-content .modal-body .we-promise {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 50px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .we-promise h3 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .we-promise .we-promise-item {
+        width: 33.33%;
+        margin: 0;
+    }
+    .modal .modal-dialog .modal-content .modal-body .we-promise .we-promise-item img {
+        width: 50px;
+        margin-bottom: 7px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-inquire {
+        width: 100%;
+        padding: 30px 50px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-inquire h3 {
+        margin-bottom: 15px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-get-info {
+        width: 100%;
+        padding: 30px 50px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-get-info h5 {
+        margin-bottom: 8px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-get-info ul {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-get-info ul li {
+        padding: 0 10px;
+    }
+
+    .disclaimer {
+        margin: 20px 10px;
+        padding: 20px 10px;
+    }
+    .disclaimer .headding-sec h3 {
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (max-width:480px) {
+
+    /* Hiro section css */
+    .hiro .hiro-contant span {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .hiro .hiro-contant h4 {
+        font-size: 25px;
+    }
+    .hiro .hiro-contant h6 {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    .hiro .hiro-contant h3 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .hiro .hiro-contant p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    /* Overview section css */
+    .overview .overview-contant h3 {
+        font-size: 20px;
+    }
+    .overview .overview-items {
+        border-radius: 8px;
+        padding: 15px 20px;
+    }
+    .overview .overview-items .overviewItems-icon {
+        font-size: 40px;
+        margin-right: 20px;
+    }
+
+    /* Location Map Section css */
+    .location-map .location-map-wrap .list-map li {
+        font-size: 16px;
+    }
+    .location-map .location-map-wrap iframe {
+        height: 200px;
+        margin-bottom: 15px;    
+    }
+
+    /* Contact Section CSS */
+    .contact .enquire-now {
+        padding: 30px 20px;
+    }
+
+    /* Customize Modal */
+    .modal .modal-dialog .modal-content .modal-body .we-promise {
+        padding: 20px 10px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-get-info {
+        padding: 20px 10px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-get-info ul li {
+        padding: 0px 7px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-inquire {
+        padding: 20px 15px;
+    }
+
+    /* Enquire Right Sidebar CSS */
+    .offcanvas-end {
+        width: 290px;
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    /* Plugin Conainer Issue */
+    .overview .container,
+    .gallery .container,
+    .price-list .container,
+    .floor-plan .container,
+    .amenities .container,
+    .location-map .container {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width:380px) {
+
+    /* Hiro section css */
+    .hiro .hiro-contant {
+        padding: 20px 10px;
+        border-radius: 7px;
+    }
+    .hiro .hiro-contant span {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .hiro .carousel-control-next,
+    .hiro .carousel-control-prev {
+        width: 10%;
+    }
+    .hiro .carousel-caption {
+        left: 10%;
+        right: 10%;
+    }
+
+    /* Footer Section Css */
+    .footer .footer-copyright {
+        padding: 12px 0;
+    }
+    .footer .footer-copyright p a {
+        display: inline-block;
+    }
+
+    /* Customize Modal */
+    .modal .modal-dialog .modal-content .modal-body .we-promise .we-promise-item img {
+        width: 44px;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-get-info ul {
+        display: unset;
+    }
+    .modal .modal-dialog .modal-content .modal-body .modal-get-info ul li {
+        padding: 0px 45px;
+        line-height: 25px;
+    }
+
+}
